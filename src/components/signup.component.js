@@ -5,7 +5,7 @@ export default class SignUp extends Component {
         return (
             <form>
                 <h3>Sign Up</h3>
-
+ 
                 <div className="form-group">
                     <label>First name</label>
                     <input type="text" className="form-control" placeholder="First name" />
