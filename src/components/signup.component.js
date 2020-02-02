@@ -1,11 +1,17 @@
 import React, { Component } from "react";
-
+import Teach from "../images/teach.jpg"
 export default class SignUp extends Component {
     render() {
         return (
-            <form>
+          <div className="wrapper">
+            <div className="image-wrapper">
+                <img
+                  src={Teach}
+                />
+            </div>
+            <form className="sign-up-form">
                 <h3>Sign Up</h3>
- 
+
                 <div className="form-group">
                     <label>First name</label>
                     <input type="text" className="form-control" placeholder="First name" />
@@ -31,6 +37,8 @@ export default class SignUp extends Component {
                     Already registered <a href="#">sign in?</a>
                 </p>
             </form>
+          </div>
+
         );
     }
 }
